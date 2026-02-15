@@ -20,7 +20,7 @@ body {
   /* ⭐ 배경 이미지 수정하려면 01.jpg 파일 교체 */
   background-image:
     linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-    url("IMG_8023.jpeg");
+    url("01.jpg");
 ​
   background-size: cover;
   background-position: center;
@@ -114,7 +114,7 @@ h1 {
 <div class="card">
   <h1>
     발렌타인데이는 못했는데<br>
-    화이트데이에 데이트 할래?
+    화이트데이에 데이트할래?
   </h1>
 ​
   <div class="btn-container" id="btnArea">
@@ -123,7 +123,7 @@ h1 {
   </div>
 ​
   <div class="result" id="result">
-    ❤️ 화이트데이 데이트 확정 ❤️
+    ❤️ 화이트데이 데이트 확정❤️
   </div>
 </div>
 ​
@@ -136,7 +136,7 @@ const result = document.getElementById("result");
 yesBtn.addEventListener("click", () => {
   /* ⭐ Yes 눌렀을 때 바뀌는 배경 (02.jpg 파일 교체 가능) */
   document.body.style.backgroundImage =
-    'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("IMG_8024.jpeg")';
+    'linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("02.jpg")';
 ​
   result.style.display = "block";
   createHearts();
